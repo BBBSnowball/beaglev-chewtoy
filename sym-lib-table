@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BeagleV_Chew_Toy-eagle-import)(type Legacy)(uri ${KIPRJMOD}/BeagleV_Chew_Toy-eagle-import.lib)(options "")(descr ""))
+)
