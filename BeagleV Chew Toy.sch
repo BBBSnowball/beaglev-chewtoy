@@ -1603,9 +1603,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 5700 3950 5700
 Connection ~ 3800 5700
-Text Label 4100 5900 0    70   ~ 0
+Text Label 3950 5700 0    70   ~ 0
 GPIO14/TX
-Text Label 4300 5950 0    70   ~ 0
+Text Label 3950 6150 0    70   ~ 0
 GPIO13/RX
 $Comp
 L Jumper:SolderJumper_2_Bridged JP32
