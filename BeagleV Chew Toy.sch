@@ -286,7 +286,7 @@ U 1 1 3E933D66
 P 2300 2700
 F 0 "BEAGLEVSIDE1" H 2050 3725 59  0000 L BNN
 F 1 "PINHD-2X20" H 2050 1500 59  0000 L BNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2300 2700 50  0001 C CNN
+F 2 "BeagleV Chew Toy:PinSocket_2x20_P2.54mm_Vertical_THTSMD" H 2300 2700 50  0001 C CNN
 F 3 "" H 2300 2700 50  0001 C CNN
 	1    2300 2700
 	1    0    0    -1  
@@ -3818,116 +3818,6 @@ Text Label 3550 10000 2    50   ~ 0
 P21
 Wire Wire Line
 	6900 9800 6850 9800
-Text Label -1950 3250 0    70   ~ 0
-GPIO47/SCL
-Text Label -1950 3350 0    70   ~ 0
-GPIO46
-Text Label -1950 3550 0    70   ~ 0
-GPIO44
-Text Label -1950 3650 0    70   ~ 0
-GPIO22
-Text Label -1950 3750 0    70   ~ 0
-GPIO20
-Text Label -1950 3950 0    70   ~ 0
-GPIO18/MOSI
-Text Label -1950 4050 0    70   ~ 0
-GPIO16/MISO
-Text Label -1950 4150 0    70   ~ 0
-GPIO12/SCLK
-Text Label -1950 4350 0    70   ~ 0
-GPIO9
-Text Label -1950 4450 0    70   ~ 0
-GPIO8
-Text Label -1950 4550 0    70   ~ 0
-GPIO6
-Text Label -1950 4650 0    70   ~ 0
-GPIO5/PWM
-Text Label -1950 4750 0    70   ~ 0
-GPIO3_TMS
-Text Label -1950 4850 0    70   ~ 0
-GPIO1_TCK
-Wire Wire Line
-	-1000 3150 -1950 3150
-Wire Wire Line
-	-1000 3250 -1950 3250
-Wire Wire Line
-	-1000 3350 -1950 3350
-Wire Wire Line
-	-1000 3550 -1950 3550
-Wire Wire Line
-	-1000 3650 -1950 3650
-Wire Wire Line
-	-1000 3750 -1950 3750
-Wire Wire Line
-	-1000 3950 -1950 3950
-Wire Wire Line
-	-1000 4050 -1950 4050
-Wire Wire Line
-	-1000 4150 -1950 4150
-Wire Wire Line
-	-1000 4350 -1950 4350
-Wire Wire Line
-	-1000 4450 -1950 4450
-Wire Wire Line
-	-1000 4550 -1950 4550
-Wire Wire Line
-	-1000 4650 -1950 4650
-Wire Wire Line
-	-1000 4750 -1950 4750
-Text Label -1600 5050 0    70   ~ 0
-GPIO14/TX
-Text Label -450 6650 2    70   ~ 0
-GPIO0_TDO_FROM_SOC
-Text Label -450 6550 2    70   ~ 0
-GPIO2_TDI_TO_SOC
-Text Label -450 6450 2    70   ~ 0
-GPIO4_TRSTN
-Text Label -1600 6250 0    70   ~ 0
-GPIO7/PWM
-Text Label -1600 6050 0    70   ~ 0
-GPIO10
-Text Label -1600 5950 0    70   ~ 0
-GPIO11/CS1
-Text Label -1600 5850 0    70   ~ 0
-GPIO15/CS0
-Text Label -1600 5750 0    70   ~ 0
-GPIO17
-Text Label -1600 5550 0    70   ~ 0
-GPIO19
-Text Label -1600 5450 0    70   ~ 0
-GPIO21
-Text Label -1600 5250 0    70   ~ 0
-GPIO45
-Text Label -1600 5150 0    70   ~ 0
-GPIO13/RX
-Wire Wire Line
-	-1850 5050 -1200 5050
-Wire Wire Line
-	-1850 5150 -1200 5150
-Wire Wire Line
-	-1850 5250 -1200 5250
-Wire Wire Line
-	-1850 5450 -1200 5450
-Wire Wire Line
-	-1850 5550 -1200 5550
-Wire Wire Line
-	-1850 5750 -1200 5750
-Wire Wire Line
-	-1850 5850 -1200 5850
-Wire Wire Line
-	-1850 5950 -1200 5950
-Wire Wire Line
-	-1850 6050 -1200 6050
-Wire Wire Line
-	-1850 6250 -1200 6250
-Wire Wire Line
-	-1850 6450 -450 6450
-Wire Wire Line
-	-1850 6550 -450 6550
-Wire Wire Line
-	-1850 6650 -450 6650
-Text Label -1950 3150 0    70   ~ 0
-GPIO48/SDA
 Wire Wire Line
 	10000 9500 8800 9500
 Wire Wire Line
