@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BeagleV Chew Toy-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 17495 12046
@@ -1522,90 +1523,41 @@ Wire Wire Line
 Wire Wire Line
 	2000 5900 800  5900
 $Comp
-L Device:Jumper JP36
-U 1 1 60ADECE9
-P 3400 5700
-F 0 "JP36" H 3400 5873 50  0000 C CNN
-F 1 "Jumper" H 3400 5873 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 5700 50  0001 C CNN
-F 3 "~" H 3400 5700 50  0001 C CNN
-	1    3400 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP37
-U 1 1 60AE0AD3
-P 3400 5800
-F 0 "JP37" H 3600 5850 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 3400 5914 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 5800 50  0001 C CNN
-F 3 "~" H 3400 5800 50  0001 C CNN
-	1    3400 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Jumper JP38
 U 1 1 60AE0FC7
-P 3400 6150
-F 0 "JP38" H 3400 6323 50  0000 C CNN
-F 1 "Jumper" H 3400 6323 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 6150 50  0001 C CNN
-F 3 "~" H 3400 6150 50  0001 C CNN
-	1    3400 6150
+P 3500 5700
+F 0 "JP38" H 3500 5873 50  0000 C CNN
+F 1 "Jumper" H 3500 5873 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 5700 50  0001 C CNN
+F 3 "~" H 3500 5700 50  0001 C CNN
+	1    3500 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP39
 U 1 1 60AE162B
-P 3400 6250
-F 0 "JP39" H 3600 6300 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 3400 6364 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 6250 50  0001 C CNN
-F 3 "~" H 3400 6250 50  0001 C CNN
-	1    3400 6250
+P 3500 5800
+F 0 "JP39" H 3700 5850 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3500 5914 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3500 5800 50  0001 C CNN
+F 3 "~" H 3500 5800 50  0001 C CNN
+	1    3500 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 5700 3050 5700
-Wire Wire Line
-	3250 5800 3050 5800
-Wire Wire Line
-	3050 5800 3050 5700
-Connection ~ 3050 5700
-Wire Wire Line
-	3050 5700 3100 5700
-Wire Wire Line
 	2500 5800 2950 5800
 Wire Wire Line
-	2950 5800 2950 6150
+	3350 5800 3050 5800
 Wire Wire Line
-	2950 6150 3100 6150
+	3650 5800 3900 5800
 Wire Wire Line
-	3250 6250 2950 6250
+	3900 5800 3900 5700
 Wire Wire Line
-	2950 6250 2950 6150
-Connection ~ 2950 6150
+	3900 5700 3800 5700
 Wire Wire Line
-	3550 6250 3800 6250
-Wire Wire Line
-	3800 6250 3800 6150
-Wire Wire Line
-	3800 6150 3700 6150
-Wire Wire Line
-	3800 6150 3950 6150
-Connection ~ 3800 6150
-Wire Wire Line
-	3550 5800 3800 5800
-Wire Wire Line
-	3800 5800 3800 5700
-Wire Wire Line
-	3800 5700 3700 5700
-Wire Wire Line
-	3800 5700 3950 5700
-Connection ~ 3800 5700
-Text Label 3950 5700 0    70   ~ 0
-GPIO14/TX
-Text Label 3950 6150 0    70   ~ 0
+	3900 5700 4050 5700
+Connection ~ 3900 5700
+Text Label 4050 5700 0    70   ~ 0
 GPIO13/RX
 $Comp
 L Jumper:SolderJumper_2_Bridged JP32
@@ -3942,4 +3894,53 @@ F 3 "~" H 1850 4400 50  0001 C CNN
 	1    1850 4400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2500 5700 3050 5700
+Wire Wire Line
+	3050 5800 3050 5700
+Connection ~ 3050 5700
+Wire Wire Line
+	3050 5700 3200 5700
+Wire Wire Line
+	2950 5800 2950 6150
+Text Label 4050 6150 0    70   ~ 0
+GPIO14/TX
+Connection ~ 3900 6150
+Wire Wire Line
+	3900 6150 4050 6150
+Wire Wire Line
+	3900 6150 3800 6150
+Wire Wire Line
+	3900 6250 3900 6150
+Wire Wire Line
+	3650 6250 3900 6250
+$Comp
+L Jumper:SolderJumper_2_Open JP37
+U 1 1 60AE0AD3
+P 3500 6250
+F 0 "JP37" H 3700 6300 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3500 6364 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3500 6250 50  0001 C CNN
+F 3 "~" H 3500 6250 50  0001 C CNN
+	1    3500 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP36
+U 1 1 60ADECE9
+P 3500 6150
+F 0 "JP36" H 3500 6323 50  0000 C CNN
+F 1 "Jumper" H 3500 6323 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 6150 50  0001 C CNN
+F 3 "~" H 3500 6150 50  0001 C CNN
+	1    3500 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6250 3350 6250
+Wire Wire Line
+	2950 6150 3200 6150
+Connection ~ 2950 6150
+Wire Wire Line
+	2950 6150 2950 6250
 $EndSCHEMATC
